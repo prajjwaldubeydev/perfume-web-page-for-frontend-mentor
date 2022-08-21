@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 70px;
+    background-color:  hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    
+
+}
+.mother {
+    height: 501px;
+    width: 666px;
+    display: flex;
+   
+}
+.le {
+    height: 501px;
+    width: 333px;
+    /* border-radius: 10px; */
+   background-image: url(image-product-desktop.jpg);
+   background-size: 333px;
+   border-radius: 14px 0 0 14px;
+
+}
+.ri {
+    margin: 0;
+    padding: 32px;
+    height: 437px;
+    width: 333px;
+    /* display: flex; */
+    background-color: white;
+    border-radius: 0 14px 14px 0;
+    
+}
+#perfume {
+    font-family:"Montserrat";
+    /* text-decoration: none; */
+    color: hsl(228, 12%, 48%);
+    font-weight: 400;
+}
+#heading{
+   font-family: "Fraunces";
+   
+}
+#content {
+    font-family: "Montserrat" ;
+    font-weight: 500 ;
+    color: hsl(228, 12%, 48%);
+}
+.amount {
+    display: flex;
+    justify-content: center;
+}
+#price{
+    font-size: 40px;
+    font-family: "Fraunces";
+    display: flex;
+    width: 145px;
+    color: hsl(158, 36%, 37%);
+}
+#discount{
+    padding-top: 14px;
+    display: flex;
+    width: 83px;
+    justify-content: center;
+    color:  hsl(228, 12%, 48%);
+}
+button {
+
+    padding: 15px;
+    background-color: hsl(158, 36%, 37%);
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: rgb(3, 41, 3);
+}
+#image{
+    height: 25px;
+}
+#inside{
+    padding: 4px;
+    font-family:"Montserrat" ;
+    color: white;
+}
+@media only screen and (max-width:375px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    .mother {
+        margin:20px;
+        padding:0;
+        width: 309px;
+        flex-wrap:wrap;
+        border-radius: 14px;
+        
+    }
+    .le{
+        width: 311px;
+        height: 191px;
+        background-image:url(image-product-mobile.jpg) ;
+        background-size: 310px;
+        border-radius: 14px 14px 0 0;
+        
+        
+    }
+    button{
+        width: 250px;
+    }
+    .ri {
+     width: 246px;
+     border-radius: 0 0 14px 14px;
+    }
+}
